@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-head{ 
+  background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png);
+  width: 100vw;
+  height: 40vh;
+  background-size: 100% 100%;
+  position: absolute;
+}
+.heading{
+  color: white;
+font-size: 50px;
+position: relative;
+text-align: center;
+margin-top: 100px;
+}
+.input-field{
+  width: 270px;
+  height: 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+  text-align: left;
+  margin-left: 5px;
+}
+.submit{
+  width: 100px;
+  height:35px;
+  margin-top:10px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #F7BE3B;
+  font-size: 18px;
+}
