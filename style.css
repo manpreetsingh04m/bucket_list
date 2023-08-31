@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body{
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .main-head{ 
@@ -24,22 +24,69 @@ body{
 font-size: 50px;
 position: relative;
 text-align: center;
-margin-top: 100px;
+margin-top: 90px;
 }
-.input-field{
+.input-cont{
+  position: relative;
+  margin-left: -40px;
+}
+.input{
   width: 270px;
-  height: 30px;
-  margin-top: 30px;
+  height: 40px;
+  margin-top: 28px;
   border-radius: 30px;
   text-align: left;
   margin-left: 5px;
+  overflow: hidden;
 }
-.submit{
+.btn-submit{
   width: 100px;
-  height:35px;
-  margin-top:10px;
+  height:45px;
+  margin-top:28px;
   border-radius: 30px;
   text-align: center;
   background-color: #F7BE3B;
   font-size: 18px;
+  margin-left: -30px;
+  position: absolute;
+  overflow: hidden;
+}
+.container{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 480px;
+}
+#container{
+  height: 60%;
+  width: 60%;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+.bucket{
+  line-height: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 500px;
+  position: absolute;
+  margin-left: 30px;
+}
+h2{
+  font-size: 33px;
+}
+.reset{
+  background-color: #F7BE3B;
+  position: absolute;
+  margin-top: 900px;
+  margin-left: -120px;
+  width: 250px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer{
+  position: absolute;
+  margin-top: 960px;
+  margin-left: 650px;
 }

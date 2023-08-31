@@ -7,13 +7,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="main-head">
+  <div class="main-head">
     <div>
       <h1 class="heading">MY 2023 Bucket List</h1>
-      <input type="text" placeholder="I Want too.." class="input-field">
-      <input type="submit" placeholder="Add" class="submit">
+      <div class="input-cont">
+      <input type="text" placeholder="I Want too.." class="input" id="input">
+      <input type="submit" value="Add" class="btn-submit" id="btn-submit" onclick="addvalue()" />
     </div>
-
-  </section>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Here's what you gotta do this year</h2>
+    <div class="bucket"> 
+      <p>The first think on your bucket list is to tick things of your
+        bucket list. So, go ahead buddy 😜...</p>
+    </div>
+    <ul id="container"></ul>
+  </div>
+  <button class="reset" id="reset" onclick="reset()"> Reset Bucket List </button> <br>
+  <footer class="footer">
+<p>Coded with 💛 by Manpreet</p>
+  </footer>
+  <script src="app.js"> </script>
 </body>
-</html>
+</html> 
