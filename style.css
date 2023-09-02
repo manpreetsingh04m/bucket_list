@@ -61,7 +61,7 @@ margin-top: 90px;
   height: 80%;
   width: 60%;
   margin-top: 20%;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 .bucket{
   line-height: 20px;
@@ -90,4 +90,18 @@ h2{
   position: absolute;
   margin-top: 1050px;
   margin-left: 660px;
+}
+li{
+ 
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 10px;
+border: 1px solid black;
+text-align: left;
+text-align: center;
+}
+li img{
+  margin-left: 110px;
+  margin-top: 7px;
 }
